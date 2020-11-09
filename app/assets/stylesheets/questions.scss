@@ -1,0 +1,40 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+  
+$gry: #F4F4F4;
+$pretty: #F4D4;
+
+
+.container {
+ padding: 20px;
+ background-color: lightyellow;
+ margin-bottom: 10px;
+ width: auto;
+}
+
+.you {
+ background: $gry;
+}
+
+.author {
+ font-style: italic;
+ font-family: sans-serif;
+ padding: 4px;
+}
+
+.question {
+ padding: 0px;
+ font-family: sans-serif;
+}
+
+.btn {
+ background-color: $pretty; /* Green */
+ padding: 5px 10px;
+ display: inline-block;
+ text-align: center;
+ text-decoration: none;
+ font-size: 12px;
+ margin: 10px;
+ border-radius: 8px;
+}
